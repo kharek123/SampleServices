@@ -1,0 +1,8 @@
+1) ATAMStoGVSDNSync1 and ATAMStoGVSDNSync2
+These services are used to sync the data from DN to another DN. In this Design Tables are not static. Columns are also not known. These tables are created dynamically and based on configration we create a table and sync the data from one DN to another DN.
+
+2) CaptureData and FindPingPong
+These services are used to find if there are any tags that are seen by mltiple readers in the same time
+
+3) MoveAsset
+This service is written for publishing RFID tags to multiple location in the interval of given time.
